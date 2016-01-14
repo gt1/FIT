@@ -10,7 +10,7 @@ The scripts in this repository are distributed under version 3 of the GNU Genera
 The scripts in this repository were written by German Tischler while at the Wellcome Trust Sanger Institute, Hinxton, Cambridge, UK and the Max Planck Insitute for Molecular Cell
 Biology and Genetics, Dresden and are
 
-Copyright (C) 2004-2016 German Tischler
+Copyright (C) 2004-2016 German Tischler  
 Copyright (C) 2014-2015 Genome Research Limited
 
 ## Running it
