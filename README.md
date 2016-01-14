@@ -22,3 +22,20 @@ bash FIT.sh in_1.bam in_2.bam ... in_n.bam
 ```
 
 where in_1.bam etc. need to be valid names according to the schemes described above.
+
+## Output
+The system produces lists of break points supported by a sufficient number of read pairs
+
+Summary files can be found at
+
+- stats25/KMT2A_gene_subset.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
+- stats25/KMT2A_all.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
+- stats25/all.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
+
+after the analysis has finished. These files report suspected translocations between
+
+- KMT2A and the partner genes mentioned in the paper
+- KMT2A and all other genes
+- translocations between all genes
+
+respectively.
