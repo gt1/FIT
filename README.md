@@ -28,9 +28,9 @@ The system produces lists of break points supported by a sufficient number of re
 
 Summary files can be found at
 
-- stats25/KMT2A_gene_subset.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
-- stats25/KMT2A_all.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
-- stats25/all.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
+- stats_25/KMT2A_gene_subset.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
+- stats_25/KMT2A_all.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
+- stats_25/all.stat.nooverlap.hist.breakpoints_filtered_2_postfiltered.txt
 
 after the analysis has finished. These files report suspected translocations between
 
