@@ -1,4 +1,5 @@
 #! /bin/bash
+source tools.sh
 
 # cleanup filter not restricting to known partner gene subset
 
