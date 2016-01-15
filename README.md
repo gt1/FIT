@@ -15,7 +15,7 @@ Copyright (C) 2014-2015 Genome Research Limited
 
 ## System requirements
 
-FIT requires a x86_64 GNU/Linux platform and sufficient space to map short reads to a human genome using smalt (see http://www.sanger.ac.uk/science/tools/smalt-0).
+FIT requires a x86_64 GNU/Linux platform and sufficient memory/RAM to map short reads to a human genome using smalt (see http://www.sanger.ac.uk/science/tools/smalt-0).
 
 ## Running it
 
@@ -27,6 +27,8 @@ bash FIT.sh in_1.bam in_2.bam ... in_n.bam
 ```
 
 where in_1.bam etc. need to be valid names according to the schemes described above.
+
+Some phases of FIT can make use of multi threading. The number of threads used can be set in the tools.sh script (change the value NUMTHREADS shell variable).
 
 ## Output
 The system produces lists of break points supported by a sufficient number of read pairs
