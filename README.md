@@ -20,7 +20,7 @@ FIT requires a x86_64 GNU/Linux platform and sufficient memory/RAM to map short 
 ## Running it
 
 As input the package requires one or more files with short sequencing reads in the BAM format. The file names must follow the scheme
-<run_id>_<lane_id>#<tag>.bam where <run_id>, <lane_id> and <tag> are numbers. A valid example is 13811_5#31.bam. The analysis is then started by calling
+*run_id*_*lane_id*#*tag*.bam where *run_id*, *lane_id* and *tag* are numbers. A valid example is 13811_5#31.bam. The analysis is then started by calling
 
 ```
 bash FIT.sh in_1.bam in_2.bam ... in_n.bam
