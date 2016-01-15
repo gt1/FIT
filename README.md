@@ -13,7 +13,12 @@ Biology and Genetics, Dresden and are
 Copyright (C) 2004-2016 German Tischler  
 Copyright (C) 2014-2015 Genome Research Limited
 
+## System requirements
+
+FIT requires a x86_64 GNU/Linux platform and sufficient space to map short reads to a human genome using smalt (see http://www.sanger.ac.uk/science/tools/smalt-0).
+
 ## Running it
+
 As input the package requires one or more files with short sequencing reads in the BAM format. The file names must follow the scheme
 <run_id>_<lane_id>#<tag>.bam where <run_id>, <lane_id> and <tag> are numbers. A valid example is 13811_5#31.bam. The analysis is then started by calling
 
