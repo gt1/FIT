@@ -61,7 +61,7 @@ done
 printf "files: ${BP}\n" >>Makefile.breakpoints
 
 # create files
-nice -n 20 make -j16 -f Makefile.breakpoints
+nice -n 20 make -j${NUMTHREADS} -f Makefile.breakpoints
 
 #for i in stats_*/*.breakpoints.gz ; do
 #	echo $i

@@ -1,4 +1,5 @@
 #!/bin/bash
+export NUMTHREADS=1
 export BIOBAMBAM2VERSION=2.0.26-release-20160112195720
 export BIOBAMBAM2ARCH=biobambam2-${BIOBAMBAM2VERSION}-x86_64-etch-linux-gnu.tar.gz
 export BIOBAMBAM2URL=https://github.com/gt1/biobambam2/releases/download/${BIOBAMBAM2VERSION}/${BIOBAMBAM2ARCH}

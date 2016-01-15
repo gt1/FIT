@@ -19,4 +19,4 @@ printf "files: ${ALL}\n"
 
 # run filter
 createmk >Makefile.filter
-nice -n 20 make -j32 -f Makefile.filter
+nice -n 20 make -j${NUMTHREADS} -f Makefile.filter

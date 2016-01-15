@@ -18,7 +18,7 @@ printf "files: ${ALL}\n"
 }
 
 createmk $* >Makefile.split
-nice -n 20 make -j 32 -f Makefile.split 1>&2
+nice -n 20 make -j ${NUMTHREADS} -f Makefile.split 1>&2
 
 # exit 0
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-export NUMTHREADS=1
+source tools.sh
 
 function FIT_process
 {

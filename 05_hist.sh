@@ -35,7 +35,7 @@ for MQT in 0 5 10 15 20 25 ; do
 	mk $* > Makefile.hist
 
 	# generate histograms
-	make -j32 -k -f Makefile.hist
+	make -j ${NUMTHREADS} -k -f Makefile.hist
 
 	# restore names (replace x by #)
 	for i in *.bam.hist ; do
